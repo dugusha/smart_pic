@@ -1,0 +1,2441 @@
+2018-01-24 15:08:47 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: user/ in /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('', Array)
+#1 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('user', Array)
+#2 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Users/gaoruishen/www/smart-pic/web/index.php(14): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: 页面未找到。 in /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/gaoruishen/www/smart-pic/web/index.php(14): yii\base\Application->run()
+#2 {main}
+2018-01-24 15:08:47 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8,co;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'smart.pic.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'smart.pic.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '56363'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/Users/gaoruishen/www/smart-pic/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/user'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/Users/gaoruishen/www/smart-pic/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1516777727.6744
+    'REQUEST_TIME' => 1516777727
+]
+2018-01-24 15:09:17 [127.0.0.1][-][-][error][yii\web\HttpException:400] yii\web\BadRequestHttpException: 缺少参数：user_token in /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/web/Controller.php:149
+Stack trace:
+#0 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/InlineAction.php(51): yii\web\Controller->bindActionParams(Object(yii\base\InlineAction), Array)
+#1 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#2 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('info', Array)
+#3 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('user/info', Array)
+#4 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#5 /Users/gaoruishen/www/smart-pic/web/index.php(14): yii\base\Application->run()
+#6 {main}
+2018-01-24 15:09:17 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8,co;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'smart.pic.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'smart.pic.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '56363'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/Users/gaoruishen/www/smart-pic/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/user/info'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/Users/gaoruishen/www/smart-pic/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1516777757.6818
+    'REQUEST_TIME' => 1516777757
+]
+2018-01-24 15:09:50 [127.0.0.1][-][-][error][yii\web\HttpException:400] yii\web\BadRequestHttpException: 缺少参数：s in /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/web/Controller.php:149
+Stack trace:
+#0 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/InlineAction.php(51): yii\web\Controller->bindActionParams(Object(yii\base\InlineAction), Array)
+#1 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#2 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('info', Array)
+#3 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('user/info', Array)
+#4 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#5 /Users/gaoruishen/www/smart-pic/web/index.php(14): yii\base\Application->run()
+#6 {main}
+2018-01-24 15:09:50 [127.0.0.1][-][-][info][application] $_GET = [
+    'a' => '2'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8,co;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'smart.pic.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'smart.pic.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '56363'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/Users/gaoruishen/www/smart-pic/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/user/info?a=2'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'a=2'
+    'SCRIPT_FILENAME' => '/Users/gaoruishen/www/smart-pic/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1516777790.5686
+    'REQUEST_TIME' => 1516777790
+]
+2018-01-24 15:12:07 [127.0.0.1][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: imagettftext(): Could not find/open font in /Users/gaoruishen/www/smart-pic/controllers/ShowController.php:35
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'imagettftext():...', '/Users/gaoruish...', 35, Array)
+#1 /Users/gaoruishen/www/smart-pic/controllers/ShowController.php(35): imagettftext(Resource id #51, 50, 0, 10, 100, 0, '/Users/gaoruish...', '\xE6\xB5\x8B\xE8\xAF\x95')
+#2 [internal function]: app\controllers\ShowController->actionDraw()
+#3 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#5 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('draw', Array)
+#6 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('show/draw', Array)
+#7 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /Users/gaoruishen/www/smart-pic/web/index.php(14): yii\base\Application->run()
+#9 {main}
+2018-01-24 15:12:07 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8,co;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'smart.pic.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'smart.pic.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '56432'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/Users/gaoruishen/www/smart-pic/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/show/draw'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/Users/gaoruishen/www/smart-pic/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1516777927.5649
+    'REQUEST_TIME' => 1516777927
+]
+2018-01-24 17:54:33 [127.0.0.1][-][-][error][Error] Error: Class 'app\components\ApiTrace' not found in /Users/gaoruishen/www/smart-pic/components/ApiAdapter.php:145
+Stack trace:
+#0 /Users/gaoruishen/www/smart-pic/components/ApiAdapter.php(136): app\components\ApiAdapter->request('POST', 'http://ada.test...', '{"key":""}', Array)
+#1 /Users/gaoruishen/www/smart-pic/adapter/AdAdapter.php(15): app\components\ApiAdapter->postJson('/api/smart-pic/...', Array)
+#2 /Users/gaoruishen/www/smart-pic/controllers/UserController.php(19): app\adapter\AdAdapter->getFrame()
+#3 [internal function]: app\controllers\UserController->actionInfo()
+#4 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#6 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('info', Array)
+#7 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('user/info', Array)
+#8 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /Users/gaoruishen/www/smart-pic/web/index.php(14): yii\base\Application->run()
+#10 {main}
+2018-01-24 17:54:33 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8,co;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'smart.pic.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'smart.pic.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '61262'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/Users/gaoruishen/www/smart-pic/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/user/info'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/Users/gaoruishen/www/smart-pic/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1516787673.3907
+    'REQUEST_TIME' => 1516787673
+]
+2018-01-24 17:55:00 [127.0.0.1][-][-][error][Error] Error: Class 'app\components\ApiTrace' not found in /Users/gaoruishen/www/smart-pic/components/ApiAdapter.php:145
+Stack trace:
+#0 /Users/gaoruishen/www/smart-pic/components/ApiAdapter.php(136): app\components\ApiAdapter->request('POST', 'http://ada.test...', '{"key":""}', Array)
+#1 /Users/gaoruishen/www/smart-pic/adapter/AdAdapter.php(15): app\components\ApiAdapter->postJson('/api/smart-pic/...', Array)
+#2 /Users/gaoruishen/www/smart-pic/controllers/UserController.php(19): app\adapter\AdAdapter->getFrame()
+#3 [internal function]: app\controllers\UserController->actionInfo()
+#4 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#6 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('info', Array)
+#7 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('user/info', Array)
+#8 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /Users/gaoruishen/www/smart-pic/web/index.php(14): yii\base\Application->run()
+#10 {main}
+2018-01-24 17:55:00 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8,co;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'smart.pic.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'smart.pic.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '61262'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/Users/gaoruishen/www/smart-pic/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/user/info'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/Users/gaoruishen/www/smart-pic/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1516787700.4977
+    'REQUEST_TIME' => 1516787700
+]
+2018-01-24 17:58:27 [127.0.0.1][-][-][error][yii\base\Exception] yii\base\Exception: 222 in /Users/gaoruishen/www/smart-pic/controllers/UserController.php:20
+Stack trace:
+#0 [internal function]: app\controllers\UserController->actionInfo()
+#1 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('info', Array)
+#4 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('user/info', Array)
+#5 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/gaoruishen/www/smart-pic/web/index.php(14): yii\base\Application->run()
+#7 {main}
+2018-01-24 17:58:27 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8,co;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'smart.pic.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'smart.pic.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '61323'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/Users/gaoruishen/www/smart-pic/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/user/info'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/Users/gaoruishen/www/smart-pic/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1516787907.6845
+    'REQUEST_TIME' => 1516787907
+]
+2018-01-24 17:58:48 [127.0.0.1][-][-][error][yii\base\Exception] yii\base\Exception: 222 in /Users/gaoruishen/www/smart-pic/controllers/UserController.php:20
+Stack trace:
+#0 [internal function]: app\controllers\UserController->actionInfo()
+#1 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('info', Array)
+#4 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('user/info', Array)
+#5 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/gaoruishen/www/smart-pic/web/index.php(14): yii\base\Application->run()
+#7 {main}
+2018-01-24 17:58:48 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8,co;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'smart.pic.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'smart.pic.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '61323'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/Users/gaoruishen/www/smart-pic/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/user/info'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/Users/gaoruishen/www/smart-pic/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1516787928.3978
+    'REQUEST_TIME' => 1516787928
+]
+2018-01-24 17:58:49 [127.0.0.1][-][-][error][yii\base\Exception] yii\base\Exception: 222 in /Users/gaoruishen/www/smart-pic/controllers/UserController.php:20
+Stack trace:
+#0 [internal function]: app\controllers\UserController->actionInfo()
+#1 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('info', Array)
+#4 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('user/info', Array)
+#5 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/gaoruishen/www/smart-pic/web/index.php(14): yii\base\Application->run()
+#7 {main}
+2018-01-24 17:58:49 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8,co;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'smart.pic.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'smart.pic.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '61323'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/Users/gaoruishen/www/smart-pic/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/user/info'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/Users/gaoruishen/www/smart-pic/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1516787929.3568
+    'REQUEST_TIME' => 1516787929
+]
+2018-01-24 17:58:49 [127.0.0.1][-][-][error][yii\base\Exception] yii\base\Exception: 222 in /Users/gaoruishen/www/smart-pic/controllers/UserController.php:20
+Stack trace:
+#0 [internal function]: app\controllers\UserController->actionInfo()
+#1 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('info', Array)
+#4 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('user/info', Array)
+#5 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/gaoruishen/www/smart-pic/web/index.php(14): yii\base\Application->run()
+#7 {main}
+2018-01-24 17:58:49 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8,co;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'smart.pic.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'smart.pic.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '61323'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/Users/gaoruishen/www/smart-pic/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/user/info'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/Users/gaoruishen/www/smart-pic/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1516787929.6357
+    'REQUEST_TIME' => 1516787929
+]
+2018-01-24 17:58:49 [127.0.0.1][-][-][error][yii\base\Exception] yii\base\Exception: 222 in /Users/gaoruishen/www/smart-pic/controllers/UserController.php:20
+Stack trace:
+#0 [internal function]: app\controllers\UserController->actionInfo()
+#1 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('info', Array)
+#4 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('user/info', Array)
+#5 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/gaoruishen/www/smart-pic/web/index.php(14): yii\base\Application->run()
+#7 {main}
+2018-01-24 17:58:49 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8,co;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'smart.pic.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'smart.pic.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '61323'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/Users/gaoruishen/www/smart-pic/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/user/info'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/Users/gaoruishen/www/smart-pic/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1516787929.8949
+    'REQUEST_TIME' => 1516787929
+]
+2018-01-24 17:58:50 [127.0.0.1][-][-][error][yii\base\Exception] yii\base\Exception: 222 in /Users/gaoruishen/www/smart-pic/controllers/UserController.php:20
+Stack trace:
+#0 [internal function]: app\controllers\UserController->actionInfo()
+#1 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('info', Array)
+#4 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('user/info', Array)
+#5 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/gaoruishen/www/smart-pic/web/index.php(14): yii\base\Application->run()
+#7 {main}
+2018-01-24 17:58:50 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8,co;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'smart.pic.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'smart.pic.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '61323'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/Users/gaoruishen/www/smart-pic/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/user/info'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/Users/gaoruishen/www/smart-pic/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1516787930.1381
+    'REQUEST_TIME' => 1516787930
+]
+2018-01-24 17:58:50 [127.0.0.1][-][-][error][yii\base\Exception] yii\base\Exception: 222 in /Users/gaoruishen/www/smart-pic/controllers/UserController.php:20
+Stack trace:
+#0 [internal function]: app\controllers\UserController->actionInfo()
+#1 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('info', Array)
+#4 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('user/info', Array)
+#5 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/gaoruishen/www/smart-pic/web/index.php(14): yii\base\Application->run()
+#7 {main}
+2018-01-24 17:58:50 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8,co;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'smart.pic.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'smart.pic.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '61323'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/Users/gaoruishen/www/smart-pic/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/user/info'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/Users/gaoruishen/www/smart-pic/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1516787930.3655
+    'REQUEST_TIME' => 1516787930
+]
+2018-01-24 17:58:50 [127.0.0.1][-][-][error][yii\base\Exception] yii\base\Exception: 222 in /Users/gaoruishen/www/smart-pic/controllers/UserController.php:20
+Stack trace:
+#0 [internal function]: app\controllers\UserController->actionInfo()
+#1 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('info', Array)
+#4 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('user/info', Array)
+#5 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/gaoruishen/www/smart-pic/web/index.php(14): yii\base\Application->run()
+#7 {main}
+2018-01-24 17:58:50 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8,co;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'smart.pic.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'smart.pic.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '61323'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/Users/gaoruishen/www/smart-pic/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/user/info'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/Users/gaoruishen/www/smart-pic/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1516787930.6101
+    'REQUEST_TIME' => 1516787930
+]
+2018-01-24 18:09:14 [127.0.0.1][-][-][error][yii\base\Exception] yii\base\Exception: 222 in /Users/gaoruishen/www/smart-pic/controllers/UserController.php:20
+Stack trace:
+#0 [internal function]: app\controllers\UserController->actionInfo()
+#1 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('info', Array)
+#4 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('user/info', Array)
+#5 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/gaoruishen/www/smart-pic/web/index.php(14): yii\base\Application->run()
+#7 {main}
+2018-01-24 18:09:14 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8,co;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'smart.pic.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'smart.pic.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '61516'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/Users/gaoruishen/www/smart-pic/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/user/info'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/Users/gaoruishen/www/smart-pic/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1516788553.9926
+    'REQUEST_TIME' => 1516788553
+]
+2018-01-24 18:10:11 [127.0.0.1][-][-][error][yii\base\Exception] yii\base\Exception: 222 in /Users/gaoruishen/www/smart-pic/controllers/UserController.php:20
+Stack trace:
+#0 [internal function]: app\controllers\UserController->actionInfo()
+#1 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/gaoruishen/www/smart-pic/components/Controller.php(34): yii\base\Controller->runAction('info', Array)
+#4 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Module.php(523): app\components\Controller->runAction('info', Array)
+#5 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('user/info', Array)
+#6 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /Users/gaoruishen/www/smart-pic/web/index.php(14): yii\base\Application->run()
+#8 {main}
+2018-01-24 18:10:11 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8,co;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'smart.pic.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'smart.pic.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '61516'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/Users/gaoruishen/www/smart-pic/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/user/info'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/Users/gaoruishen/www/smart-pic/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1516788611.1284
+    'REQUEST_TIME' => 1516788611
+]
+2018-01-24 18:14:52 [127.0.0.1][-][-][error][yii\base\Exception] yii\base\Exception: 222 in /Users/gaoruishen/www/smart-pic/controllers/UserController.php:20
+Stack trace:
+#0 [internal function]: app\controllers\UserController->actionInfo()
+#1 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('info', Array)
+#4 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('user/info', Array)
+#5 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/gaoruishen/www/smart-pic/web/index.php(14): yii\base\Application->run()
+#7 {main}
+2018-01-24 18:14:52 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8,co;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'smart.pic.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'smart.pic.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '61542'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/Users/gaoruishen/www/smart-pic/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/user/info'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/Users/gaoruishen/www/smart-pic/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1516788892.7074
+    'REQUEST_TIME' => 1516788892
+]
+2018-01-24 18:24:18 [127.0.0.1][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: result in /Users/gaoruishen/www/smart-pic/components/Controller.php:33
+Stack trace:
+#0 /Users/gaoruishen/www/smart-pic/components/Controller.php(33): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/Users/gaoruish...', 33, Array)
+#1 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Module.php(523): app\components\Controller->runAction('info', Array)
+#2 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('user/info', Array)
+#3 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 /Users/gaoruishen/www/smart-pic/web/index.php(14): yii\base\Application->run()
+#5 {main}
+2018-01-24 18:24:18 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8,co;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'smart.pic.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'smart.pic.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '61847'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/Users/gaoruishen/www/smart-pic/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/user/info'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/Users/gaoruishen/www/smart-pic/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1516789458.3053
+    'REQUEST_TIME' => 1516789458
+]
+2018-01-24 18:24:19 [127.0.0.1][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: result in /Users/gaoruishen/www/smart-pic/components/Controller.php:33
+Stack trace:
+#0 /Users/gaoruishen/www/smart-pic/components/Controller.php(33): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/Users/gaoruish...', 33, Array)
+#1 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Module.php(523): app\components\Controller->runAction('info', Array)
+#2 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('user/info', Array)
+#3 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 /Users/gaoruishen/www/smart-pic/web/index.php(14): yii\base\Application->run()
+#5 {main}
+2018-01-24 18:24:19 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8,co;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'smart.pic.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'smart.pic.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '61847'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/Users/gaoruishen/www/smart-pic/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/user/info'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/Users/gaoruishen/www/smart-pic/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1516789459.9129
+    'REQUEST_TIME' => 1516789459
+]
+2018-01-24 18:24:22 [127.0.0.1][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: result in /Users/gaoruishen/www/smart-pic/components/Controller.php:33
+Stack trace:
+#0 /Users/gaoruishen/www/smart-pic/components/Controller.php(33): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/Users/gaoruish...', 33, Array)
+#1 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Module.php(523): app\components\Controller->runAction('info', Array)
+#2 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('user/info', Array)
+#3 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 /Users/gaoruishen/www/smart-pic/web/index.php(14): yii\base\Application->run()
+#5 {main}
+2018-01-24 18:24:22 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8,co;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'smart.pic.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'smart.pic.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '61847'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/Users/gaoruishen/www/smart-pic/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/user/info'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/Users/gaoruishen/www/smart-pic/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1516789462.1428
+    'REQUEST_TIME' => 1516789462
+]
+2018-01-25 11:33:45 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "user/info". in /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('user/info', Array)
+#1 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/gaoruishen/www/smart-pic/web/index.php(14): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: 页面未找到。 in /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/gaoruishen/www/smart-pic/web/index.php(14): yii\base\Application->run()
+#2 {main}
+2018-01-25 11:33:45 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'test_user_token' => 'admin_user_31494_web_266f107cfc6b582e2077c3777f64fdd2'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_HOST' => 'smart.pic.com'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8,co;q=0.7'
+    'HTTP_COOKIE' => 'test_user_token=admin_user_31494_web_266f107cfc6b582e2077c3777f64fdd2'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'smart.pic.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '62385'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/Users/gaoruishen/www/smart-pic/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/user/info'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/Users/gaoruishen/www/smart-pic/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1516851225.4356
+    'REQUEST_TIME' => 1516851225
+]
+2018-01-25 18:45:57 [127.0.0.1][-][-][error][yii\base\InvalidParamException] yii\base\InvalidParamException: Response content must not be an array. in /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/web/Response.php:1020
+Stack trace:
+#0 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/web/Response.php(313): yii\web\Response->prepare()
+#1 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Response->send()
+#2 /Users/gaoruishen/www/smart-pic/web/index.php(14): yii\base\Application->run()
+#3 {main}
+2018-01-25 18:45:57 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'test_user_token' => 'admin_user_31494_web_266f107cfc6b582e2077c3777f64fdd2'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_HOST' => 'smart.pic.com'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_CONTENT_LENGTH' => '83'
+    'HTTP_ACCEPT' => 'application/json, text/plain, */*'
+    'HTTP_ORIGIN' => 'http://localhost:8080'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_CONTENT_TYPE' => 'application/json;charset=UTF-8'
+    'HTTP_REFERER' => 'http://localhost:8080/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8,co;q=0.7'
+    'HTTP_COOKIE' => 'test_user_token=admin_user_31494_web_266f107cfc6b582e2077c3777f64fdd2'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'smart.pic.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '63439'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/Users/gaoruishen/www/smart-pic/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/smart-pic/save'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => '83'
+    'CONTENT_TYPE' => 'application/json;charset=UTF-8'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/Users/gaoruishen/www/smart-pic/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1516877157.0498
+    'REQUEST_TIME' => 1516877157
+]
+2018-01-25 18:48:14 [127.0.0.1][-][-][error][Error] Error: Class 'app\components\Yii' not found in /Users/gaoruishen/www/smart-pic/components/Util.php:21
+Stack trace:
+#0 /Users/gaoruishen/www/smart-pic/controllers/SmartPicController.php(28): app\components\Util::getRequestData()
+#1 [internal function]: app\controllers\SmartPicController->actionSave()
+#2 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#4 /Users/gaoruishen/www/smart-pic/components/Controller.php(28): yii\base\Controller->runAction('save', Array)
+#5 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Module.php(523): app\components\Controller->runAction('save', Array)
+#6 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('smart-pic/save', Array)
+#7 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /Users/gaoruishen/www/smart-pic/web/index.php(14): yii\base\Application->run()
+#9 {main}
+2018-01-25 18:48:14 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'test_user_token' => 'admin_user_31494_web_266f107cfc6b582e2077c3777f64fdd2'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_HOST' => 'smart.pic.com'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_CONTENT_LENGTH' => '1911'
+    'HTTP_ACCEPT' => 'application/json, text/plain, */*'
+    'HTTP_ORIGIN' => 'http://localhost:8080'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_CONTENT_TYPE' => 'application/json;charset=UTF-8'
+    'HTTP_REFERER' => 'http://localhost:8080/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8,co;q=0.7'
+    'HTTP_COOKIE' => 'test_user_token=admin_user_31494_web_266f107cfc6b582e2077c3777f64fdd2'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'smart.pic.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '63999'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/Users/gaoruishen/www/smart-pic/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/smart-pic/save'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => '1911'
+    'CONTENT_TYPE' => 'application/json;charset=UTF-8'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/Users/gaoruishen/www/smart-pic/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1516877294.4068
+    'REQUEST_TIME' => 1516877294
+]
+2018-01-25 18:48:23 [127.0.0.1][-][-][error][Error] Error: Class 'app\components\Yii' not found in /Users/gaoruishen/www/smart-pic/components/Util.php:21
+Stack trace:
+#0 /Users/gaoruishen/www/smart-pic/controllers/SmartPicController.php(28): app\components\Util::getRequestData()
+#1 [internal function]: app\controllers\SmartPicController->actionSave()
+#2 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#4 /Users/gaoruishen/www/smart-pic/components/Controller.php(28): yii\base\Controller->runAction('save', Array)
+#5 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Module.php(523): app\components\Controller->runAction('save', Array)
+#6 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('smart-pic/save', Array)
+#7 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /Users/gaoruishen/www/smart-pic/web/index.php(14): yii\base\Application->run()
+#9 {main}
+2018-01-25 18:48:23 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'test_user_token' => 'admin_user_31494_web_266f107cfc6b582e2077c3777f64fdd2'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_HOST' => 'smart.pic.com'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_CONTENT_LENGTH' => '1911'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'application/json, text/plain, */*'
+    'HTTP_ORIGIN' => 'http://localhost:8080'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_CONTENT_TYPE' => 'application/json;charset=UTF-8'
+    'HTTP_REFERER' => 'http://localhost:8080/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8,co;q=0.7'
+    'HTTP_COOKIE' => 'test_user_token=admin_user_31494_web_266f107cfc6b582e2077c3777f64fdd2'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'smart.pic.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '64045'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/Users/gaoruishen/www/smart-pic/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/smart-pic/save'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => '1911'
+    'CONTENT_TYPE' => 'application/json;charset=UTF-8'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/Users/gaoruishen/www/smart-pic/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1516877303.7128
+    'REQUEST_TIME' => 1516877303
+]
+2018-01-25 18:49:04 [127.0.0.1][-][-][error][yii\base\UnknownMethodException] yii\base\UnknownMethodException: Calling unknown method: app\adapter\AdAdapter::smartPicSave() in /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Component.php:290
+Stack trace:
+#0 /Users/gaoruishen/www/smart-pic/controllers/SmartPicController.php(47): yii\base\Component->__call('smartPicSave', Array)
+#1 [internal function]: app\controllers\SmartPicController->actionSave()
+#2 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#4 /Users/gaoruishen/www/smart-pic/components/Controller.php(28): yii\base\Controller->runAction('save', Array)
+#5 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Module.php(523): app\components\Controller->runAction('save', Array)
+#6 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('smart-pic/save', Array)
+#7 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /Users/gaoruishen/www/smart-pic/web/index.php(14): yii\base\Application->run()
+#9 {main}
+2018-01-25 18:49:04 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'test_user_token' => 'admin_user_31494_web_266f107cfc6b582e2077c3777f64fdd2'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_HOST' => 'smart.pic.com'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_CONTENT_LENGTH' => '1911'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'application/json, text/plain, */*'
+    'HTTP_ORIGIN' => 'http://localhost:8080'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_CONTENT_TYPE' => 'application/json;charset=UTF-8'
+    'HTTP_REFERER' => 'http://localhost:8080/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8,co;q=0.7'
+    'HTTP_COOKIE' => 'test_user_token=admin_user_31494_web_266f107cfc6b582e2077c3777f64fdd2'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'smart.pic.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '64220'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/Users/gaoruishen/www/smart-pic/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/smart-pic/save'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => '1911'
+    'CONTENT_TYPE' => 'application/json;charset=UTF-8'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/Users/gaoruishen/www/smart-pic/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1516877344.4143
+    'REQUEST_TIME' => 1516877344
+]
+2018-01-25 18:49:23 [127.0.0.1][-][-][error][yii\base\UnknownMethodException] yii\base\UnknownMethodException: Calling unknown method: app\adapter\AdAdapter::smartPicSave() in /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Component.php:290
+Stack trace:
+#0 /Users/gaoruishen/www/smart-pic/controllers/SmartPicController.php(47): yii\base\Component->__call('smartPicSave', Array)
+#1 [internal function]: app\controllers\SmartPicController->actionSave()
+#2 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#4 /Users/gaoruishen/www/smart-pic/components/Controller.php(28): yii\base\Controller->runAction('save', Array)
+#5 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Module.php(523): app\components\Controller->runAction('save', Array)
+#6 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('smart-pic/save', Array)
+#7 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /Users/gaoruishen/www/smart-pic/web/index.php(14): yii\base\Application->run()
+#9 {main}
+2018-01-25 18:49:23 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'test_user_token' => 'admin_user_31494_web_266f107cfc6b582e2077c3777f64fdd2'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_HOST' => 'smart.pic.com'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_CONTENT_LENGTH' => '1911'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'application/json, text/plain, */*'
+    'HTTP_ORIGIN' => 'http://localhost:8080'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_CONTENT_TYPE' => 'application/json;charset=UTF-8'
+    'HTTP_REFERER' => 'http://localhost:8080/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8,co;q=0.7'
+    'HTTP_COOKIE' => 'test_user_token=admin_user_31494_web_266f107cfc6b582e2077c3777f64fdd2'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'smart.pic.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '64299'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/Users/gaoruishen/www/smart-pic/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/smart-pic/save'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => '1911'
+    'CONTENT_TYPE' => 'application/json;charset=UTF-8'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/Users/gaoruishen/www/smart-pic/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1516877363.0853
+    'REQUEST_TIME' => 1516877363
+]
+2018-01-25 18:55:58 [127.0.0.1][-][-][error][yii\base\InvalidParamException] yii\base\InvalidParamException: Response content must not be an array. in /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/web/Response.php:1020
+Stack trace:
+#0 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/web/Response.php(313): yii\web\Response->prepare()
+#1 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Response->send()
+#2 /Users/gaoruishen/www/smart-pic/web/index.php(14): yii\base\Application->run()
+#3 {main}
+2018-01-25 18:55:58 [127.0.0.1][-][-][info][application] $_GET = [
+    'param' => ''
+]
+
+$_COOKIE = [
+    'test_user_token' => 'admin_user_31494_web_266f107cfc6b582e2077c3777f64fdd2'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_HOST' => 'smart.pic.com'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'application/json, text/plain, */*'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:8080/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8,co;q=0.7'
+    'HTTP_COOKIE' => 'test_user_token=admin_user_31494_web_266f107cfc6b582e2077c3777f64fdd2'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'smart.pic.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '49833'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/Users/gaoruishen/www/smart-pic/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/smart-pic/get-by-id?param='
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'param='
+    'SCRIPT_FILENAME' => '/Users/gaoruishen/www/smart-pic/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1516877758.5757
+    'REQUEST_TIME' => 1516877758
+]
+2018-01-25 20:01:21 [127.0.0.1][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined index: key in /Users/gaoruishen/www/smart-pic/controllers/SmartPicController.php:21
+Stack trace:
+#0 /Users/gaoruishen/www/smart-pic/controllers/SmartPicController.php(21): yii\base\ErrorHandler->handleError(8, 'Undefined index...', '/Users/gaoruish...', 21, Array)
+#1 [internal function]: app\controllers\SmartPicController->actionGetFrame()
+#2 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#4 /Users/gaoruishen/www/smart-pic/components/Controller.php(28): yii\base\Controller->runAction('get-frame', Array)
+#5 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Module.php(523): app\components\Controller->runAction('get-frame', Array)
+#6 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('smart-pic/get-f...', Array)
+#7 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /Users/gaoruishen/www/smart-pic/web/index.php(14): yii\base\Application->run()
+#9 {main}
+2018-01-25 20:01:20 [127.0.0.1][-][-][info][application] $_GET = [
+    'param' => ''
+]
+
+$_COOKIE = [
+    'test_user_token' => 'admin_user_31494_web_266f107cfc6b582e2077c3777f64fdd2'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_HOST' => 'smart.pic.com'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'application/json, text/plain, */*'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:8080/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8,co;q=0.7'
+    'HTTP_COOKIE' => 'test_user_token=admin_user_31494_web_266f107cfc6b582e2077c3777f64fdd2'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'smart.pic.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '59638'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/Users/gaoruishen/www/smart-pic/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/smart-pic/get-frame?param='
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'param='
+    'SCRIPT_FILENAME' => '/Users/gaoruishen/www/smart-pic/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1516881680.9707
+    'REQUEST_TIME' => 1516881680
+]
+2018-01-25 20:01:44 [127.0.0.1][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined index: key in /Users/gaoruishen/www/smart-pic/controllers/SmartPicController.php:21
+Stack trace:
+#0 /Users/gaoruishen/www/smart-pic/controllers/SmartPicController.php(21): yii\base\ErrorHandler->handleError(8, 'Undefined index...', '/Users/gaoruish...', 21, Array)
+#1 [internal function]: app\controllers\SmartPicController->actionGetFrame()
+#2 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#4 /Users/gaoruishen/www/smart-pic/components/Controller.php(28): yii\base\Controller->runAction('get-frame', Array)
+#5 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Module.php(523): app\components\Controller->runAction('get-frame', Array)
+#6 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('smart-pic/get-f...', Array)
+#7 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /Users/gaoruishen/www/smart-pic/web/index.php(14): yii\base\Application->run()
+#9 {main}
+2018-01-25 20:01:44 [127.0.0.1][-][-][info][application] $_GET = [
+    'param' => ''
+]
+
+$_COOKIE = [
+    'test_user_token' => 'admin_user_31494_web_266f107cfc6b582e2077c3777f64fdd2'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_HOST' => 'smart.pic.com'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8,co;q=0.7'
+    'HTTP_COOKIE' => 'test_user_token=admin_user_31494_web_266f107cfc6b582e2077c3777f64fdd2'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'smart.pic.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '59770'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/Users/gaoruishen/www/smart-pic/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/smart-pic/get-frame?param='
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'param='
+    'SCRIPT_FILENAME' => '/Users/gaoruishen/www/smart-pic/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1516881704.543
+    'REQUEST_TIME' => 1516881704
+]
+2018-01-25 20:15:44 [127.0.0.1][-][-][error][Error] Error: Class 'app\controllers\Util' not found in /Users/gaoruishen/www/smart-pic/controllers/ShowController.php:51
+Stack trace:
+#0 [internal function]: app\controllers\ShowController->actionGetById()
+#1 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/gaoruishen/www/smart-pic/components/Controller.php(28): yii\base\Controller->runAction('get-by-id', Array)
+#4 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Module.php(523): app\components\Controller->runAction('get-by-id', Array)
+#5 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('show/get-by-id', Array)
+#6 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /Users/gaoruishen/www/smart-pic/web/index.php(14): yii\base\Application->run()
+#8 {main}
+2018-01-25 20:15:44 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8,co;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'smart.pic.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'smart.pic.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '63869'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/Users/gaoruishen/www/smart-pic/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/show/get-by-id'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/Users/gaoruishen/www/smart-pic/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1516882544.9166
+    'REQUEST_TIME' => 1516882544
+]
+2018-01-25 20:23:50 [127.0.0.1][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: A non well formed numeric value encountered in /Users/gaoruishen/www/smart-pic/controllers/ShowController.php:84
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'A non well form...', '/Users/gaoruish...', 84, Array)
+#1 /Users/gaoruishen/www/smart-pic/controllers/ShowController.php(84): imagettftext(Resource id #59, '26px', 0, 240, 89, 0, '/Users/gaoruish...', '\xE4\xBB\xB7\xE6\xA0\xBC')
+#2 /Users/gaoruishen/www/smart-pic/controllers/ShowController.php(67): app\controllers\ShowController->draw('352', '134', Array)
+#3 [internal function]: app\controllers\ShowController->actionGetById()
+#4 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#6 /Users/gaoruishen/www/smart-pic/components/Controller.php(28): yii\base\Controller->runAction('get-by-id', Array)
+#7 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Module.php(523): app\components\Controller->runAction('get-by-id', Array)
+#8 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('show/get-by-id', Array)
+#9 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 /Users/gaoruishen/www/smart-pic/web/index.php(14): yii\base\Application->run()
+#11 {main}
+2018-01-25 20:23:50 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '30'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8,co;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'smart.pic.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'smart.pic.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '49319'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/Users/gaoruishen/www/smart-pic/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/show/get-by-id?id=30'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=30'
+    'SCRIPT_FILENAME' => '/Users/gaoruishen/www/smart-pic/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1516883030.7234
+    'REQUEST_TIME' => 1516883030
+]
+2018-01-25 20:25:25 [127.0.0.1][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: imagecopyresized(): Invalid image dimensions in /Users/gaoruishen/www/smart-pic/controllers/ShowController.php:88
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'imagecopyresize...', '/Users/gaoruish...', 88, Array)
+#1 /Users/gaoruishen/www/smart-pic/controllers/ShowController.php(88): imagecopyresized(Resource id #59, Resource id #61, 100, 20, 0, 0, 0, 0, '352', '134')
+#2 /Users/gaoruishen/www/smart-pic/controllers/ShowController.php(67): app\controllers\ShowController->draw('352', '134', Array)
+#3 [internal function]: app\controllers\ShowController->actionGetById()
+#4 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#6 /Users/gaoruishen/www/smart-pic/components/Controller.php(28): yii\base\Controller->runAction('get-by-id', Array)
+#7 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Module.php(523): app\components\Controller->runAction('get-by-id', Array)
+#8 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('show/get-by-id', Array)
+#9 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 /Users/gaoruishen/www/smart-pic/web/index.php(14): yii\base\Application->run()
+#11 {main}
+2018-01-25 20:25:25 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '30'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8,co;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'smart.pic.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'smart.pic.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '49966'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/Users/gaoruishen/www/smart-pic/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/show/get-by-id?id=30'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=30'
+    'SCRIPT_FILENAME' => '/Users/gaoruishen/www/smart-pic/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1516883125.4914
+    'REQUEST_TIME' => 1516883125
+]
+2018-01-25 21:42:21 [127.0.0.1][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: A non well formed numeric value encountered in /Users/gaoruishen/www/smart-pic/controllers/ShowController.php:87
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'A non well form...', '/Users/gaoruish...', 87, Array)
+#1 /Users/gaoruishen/www/smart-pic/controllers/ShowController.php(87): imagettfbbox('30px', 0, '/Users/gaoruish...', '\xE4\xB8\xBB\xE6\xA0\x87\xE9\xA2\x98')
+#2 /Users/gaoruishen/www/smart-pic/controllers/ShowController.php(67): app\controllers\ShowController->draw('352', '134', Array)
+#3 [internal function]: app\controllers\ShowController->actionGetById()
+#4 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#6 /Users/gaoruishen/www/smart-pic/components/Controller.php(28): yii\base\Controller->runAction('get-by-id', Array)
+#7 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Module.php(523): app\components\Controller->runAction('get-by-id', Array)
+#8 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('show/get-by-id', Array)
+#9 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 /Users/gaoruishen/www/smart-pic/web/index.php(14): yii\base\Application->run()
+#11 {main}
+2018-01-25 21:42:21 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '30'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8,co;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'smart.pic.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'smart.pic.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '64185'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/Users/gaoruishen/www/smart-pic/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/show/get-by-id?id=30'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=30'
+    'SCRIPT_FILENAME' => '/Users/gaoruishen/www/smart-pic/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1516887741.2685
+    'REQUEST_TIME' => 1516887741
+]
+2018-01-25 21:43:06 [127.0.0.1][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: A non well formed numeric value encountered in /Users/gaoruishen/www/smart-pic/controllers/ShowController.php:87
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'A non well form...', '/Users/gaoruish...', 87, Array)
+#1 /Users/gaoruishen/www/smart-pic/controllers/ShowController.php(87): imagettfbbox('30px', 0, '/Users/gaoruish...', '\xE4\xB8\xBB\xE6\xA0\x87\xE9\xA2\x98')
+#2 /Users/gaoruishen/www/smart-pic/controllers/ShowController.php(67): app\controllers\ShowController->draw('352', '134', Array)
+#3 [internal function]: app\controllers\ShowController->actionGetById()
+#4 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#6 /Users/gaoruishen/www/smart-pic/components/Controller.php(28): yii\base\Controller->runAction('get-by-id', Array)
+#7 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Module.php(523): app\components\Controller->runAction('get-by-id', Array)
+#8 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('show/get-by-id', Array)
+#9 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 /Users/gaoruishen/www/smart-pic/web/index.php(14): yii\base\Application->run()
+#11 {main}
+2018-01-25 21:43:05 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '30'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8,co;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'smart.pic.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'smart.pic.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '64185'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/Users/gaoruishen/www/smart-pic/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/show/get-by-id?id=30'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=30'
+    'SCRIPT_FILENAME' => '/Users/gaoruishen/www/smart-pic/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1516887785.7356
+    'REQUEST_TIME' => 1516887785
+]
+2018-01-29 14:34:55 [127.0.0.1][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error:  in /Users/gaoruishen/www/smart-pic/controllers/ShowController.php:94
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'imagecreatefrom...', '/Users/gaoruish...', 94, Array)
+#1 /Users/gaoruishen/www/smart-pic/controllers/ShowController.php(94): imagecreatefromjpeg('https://img-oss...')
+#2 /Users/gaoruishen/www/smart-pic/controllers/ShowController.php(68): app\controllers\ShowController->draw('352', '134', Array)
+#3 [internal function]: app\controllers\ShowController->actionGetById()
+#4 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#6 /Users/gaoruishen/www/smart-pic/components/Controller.php(28): yii\base\Controller->runAction('get-by-id', Array)
+#7 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Module.php(523): app\components\Controller->runAction('get-by-id', Array)
+#8 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('show/get-by-id', Array)
+#9 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 /Users/gaoruishen/www/smart-pic/web/index.php(14): yii\base\Application->run()
+#11 {main}
+2018-01-29 14:34:55 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '31'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8,co;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'smart.pic.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'smart.pic.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '56660'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/Users/gaoruishen/www/smart-pic/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/show/get-by-id?id=31'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=31'
+    'SCRIPT_FILENAME' => '/Users/gaoruishen/www/smart-pic/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1517207695.6495
+    'REQUEST_TIME' => 1517207695
+]
+2018-01-29 14:35:23 [127.0.0.1][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: imagecreatefromjpeg(): Filename cannot be empty in /Users/gaoruishen/www/smart-pic/controllers/ShowController.php:94
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'imagecreatefrom...', '/Users/gaoruish...', 94, Array)
+#1 /Users/gaoruishen/www/smart-pic/controllers/ShowController.php(94): imagecreatefromjpeg('')
+#2 /Users/gaoruishen/www/smart-pic/controllers/ShowController.php(68): app\controllers\ShowController->draw('352', '134', Array)
+#3 [internal function]: app\controllers\ShowController->actionGetById()
+#4 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#6 /Users/gaoruishen/www/smart-pic/components/Controller.php(28): yii\base\Controller->runAction('get-by-id', Array)
+#7 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Module.php(523): app\components\Controller->runAction('get-by-id', Array)
+#8 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('show/get-by-id', Array)
+#9 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 /Users/gaoruishen/www/smart-pic/web/index.php(14): yii\base\Application->run()
+#11 {main}
+2018-01-29 14:35:23 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '31'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8,co;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'smart.pic.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'smart.pic.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '56660'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/Users/gaoruishen/www/smart-pic/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/show/get-by-id?id=31'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=31'
+    'SCRIPT_FILENAME' => '/Users/gaoruishen/www/smart-pic/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1517207723.7147
+    'REQUEST_TIME' => 1517207723
+]
+2018-01-29 14:35:31 [127.0.0.1][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: imagecreatefromjpeg(): Filename cannot be empty in /Users/gaoruishen/www/smart-pic/controllers/ShowController.php:94
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'imagecreatefrom...', '/Users/gaoruish...', 94, Array)
+#1 /Users/gaoruishen/www/smart-pic/controllers/ShowController.php(94): imagecreatefromjpeg('')
+#2 /Users/gaoruishen/www/smart-pic/controllers/ShowController.php(68): app\controllers\ShowController->draw('352', '134', Array)
+#3 [internal function]: app\controllers\ShowController->actionGetById()
+#4 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#6 /Users/gaoruishen/www/smart-pic/components/Controller.php(28): yii\base\Controller->runAction('get-by-id', Array)
+#7 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Module.php(523): app\components\Controller->runAction('get-by-id', Array)
+#8 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('show/get-by-id', Array)
+#9 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 /Users/gaoruishen/www/smart-pic/web/index.php(14): yii\base\Application->run()
+#11 {main}
+2018-01-29 14:35:31 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '31'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8,co;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'smart.pic.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'smart.pic.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '56660'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/Users/gaoruishen/www/smart-pic/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/show/get-by-id?id=31'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=31'
+    'SCRIPT_FILENAME' => '/Users/gaoruishen/www/smart-pic/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1517207731.7091
+    'REQUEST_TIME' => 1517207731
+]
+2018-01-29 14:35:32 [127.0.0.1][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: imagecreatefromjpeg(): Filename cannot be empty in /Users/gaoruishen/www/smart-pic/controllers/ShowController.php:94
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'imagecreatefrom...', '/Users/gaoruish...', 94, Array)
+#1 /Users/gaoruishen/www/smart-pic/controllers/ShowController.php(94): imagecreatefromjpeg('')
+#2 /Users/gaoruishen/www/smart-pic/controllers/ShowController.php(68): app\controllers\ShowController->draw('352', '134', Array)
+#3 [internal function]: app\controllers\ShowController->actionGetById()
+#4 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#6 /Users/gaoruishen/www/smart-pic/components/Controller.php(28): yii\base\Controller->runAction('get-by-id', Array)
+#7 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Module.php(523): app\components\Controller->runAction('get-by-id', Array)
+#8 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('show/get-by-id', Array)
+#9 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 /Users/gaoruishen/www/smart-pic/web/index.php(14): yii\base\Application->run()
+#11 {main}
+2018-01-29 14:35:32 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '31'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8,co;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'smart.pic.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'smart.pic.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '56660'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/Users/gaoruishen/www/smart-pic/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/show/get-by-id?id=31'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=31'
+    'SCRIPT_FILENAME' => '/Users/gaoruishen/www/smart-pic/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1517207732.7577
+    'REQUEST_TIME' => 1517207732
+]
+2018-01-29 14:35:38 [127.0.0.1][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: imagecreatefromjpeg(): Filename cannot be empty in /Users/gaoruishen/www/smart-pic/controllers/ShowController.php:94
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'imagecreatefrom...', '/Users/gaoruish...', 94, Array)
+#1 /Users/gaoruishen/www/smart-pic/controllers/ShowController.php(94): imagecreatefromjpeg('')
+#2 /Users/gaoruishen/www/smart-pic/controllers/ShowController.php(68): app\controllers\ShowController->draw('352', '134', Array)
+#3 [internal function]: app\controllers\ShowController->actionGetById()
+#4 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#6 /Users/gaoruishen/www/smart-pic/components/Controller.php(28): yii\base\Controller->runAction('get-by-id', Array)
+#7 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Module.php(523): app\components\Controller->runAction('get-by-id', Array)
+#8 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('show/get-by-id', Array)
+#9 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 /Users/gaoruishen/www/smart-pic/web/index.php(14): yii\base\Application->run()
+#11 {main}
+2018-01-29 14:35:38 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '31'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8,co;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'smart.pic.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'smart.pic.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '56660'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/Users/gaoruishen/www/smart-pic/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/show/get-by-id?id=31'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=31'
+    'SCRIPT_FILENAME' => '/Users/gaoruishen/www/smart-pic/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1517207738.5923
+    'REQUEST_TIME' => 1517207738
+]
+2018-01-29 14:36:08 [127.0.0.1][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error:  in /Users/gaoruishen/www/smart-pic/controllers/ShowController.php:94
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'imagecreatefrom...', '/Users/gaoruish...', 94, Array)
+#1 /Users/gaoruishen/www/smart-pic/controllers/ShowController.php(94): imagecreatefromjpeg('https://img-oss...')
+#2 /Users/gaoruishen/www/smart-pic/controllers/ShowController.php(68): app\controllers\ShowController->draw('352', '134', Array)
+#3 [internal function]: app\controllers\ShowController->actionGetById()
+#4 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#6 /Users/gaoruishen/www/smart-pic/components/Controller.php(28): yii\base\Controller->runAction('get-by-id', Array)
+#7 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Module.php(523): app\components\Controller->runAction('get-by-id', Array)
+#8 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('show/get-by-id', Array)
+#9 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 /Users/gaoruishen/www/smart-pic/web/index.php(14): yii\base\Application->run()
+#11 {main}
+2018-01-29 14:36:08 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '31'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8,co;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'smart.pic.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'smart.pic.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '56660'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/Users/gaoruishen/www/smart-pic/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/show/get-by-id?id=31'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=31'
+    'SCRIPT_FILENAME' => '/Users/gaoruishen/www/smart-pic/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1517207768.273
+    'REQUEST_TIME' => 1517207768
+]
+2018-01-29 14:36:36 [127.0.0.1][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error:  in /Users/gaoruishen/www/smart-pic/controllers/ShowController.php:94
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'imagecreatefrom...', '/Users/gaoruish...', 94, Array)
+#1 /Users/gaoruishen/www/smart-pic/controllers/ShowController.php(94): imagecreatefromjpeg('https://img-oss...')
+#2 /Users/gaoruishen/www/smart-pic/controllers/ShowController.php(68): app\controllers\ShowController->draw('352', '134', Array)
+#3 [internal function]: app\controllers\ShowController->actionGetById()
+#4 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#6 /Users/gaoruishen/www/smart-pic/components/Controller.php(28): yii\base\Controller->runAction('get-by-id', Array)
+#7 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Module.php(523): app\components\Controller->runAction('get-by-id', Array)
+#8 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('show/get-by-id', Array)
+#9 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 /Users/gaoruishen/www/smart-pic/web/index.php(14): yii\base\Application->run()
+#11 {main}
+2018-01-29 14:36:36 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '31'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8,co;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'smart.pic.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'smart.pic.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '56660'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/Users/gaoruishen/www/smart-pic/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/show/get-by-id?id=31'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=31'
+    'SCRIPT_FILENAME' => '/Users/gaoruishen/www/smart-pic/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1517207796.8223
+    'REQUEST_TIME' => 1517207796
+]
+2018-01-29 14:36:38 [127.0.0.1][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error:  in /Users/gaoruishen/www/smart-pic/controllers/ShowController.php:94
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'imagecreatefrom...', '/Users/gaoruish...', 94, Array)
+#1 /Users/gaoruishen/www/smart-pic/controllers/ShowController.php(94): imagecreatefromjpeg('https://img-oss...')
+#2 /Users/gaoruishen/www/smart-pic/controllers/ShowController.php(68): app\controllers\ShowController->draw('352', '134', Array)
+#3 [internal function]: app\controllers\ShowController->actionGetById()
+#4 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#6 /Users/gaoruishen/www/smart-pic/components/Controller.php(28): yii\base\Controller->runAction('get-by-id', Array)
+#7 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Module.php(523): app\components\Controller->runAction('get-by-id', Array)
+#8 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('show/get-by-id', Array)
+#9 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 /Users/gaoruishen/www/smart-pic/web/index.php(14): yii\base\Application->run()
+#11 {main}
+2018-01-29 14:36:37 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '31'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8,co;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'smart.pic.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'smart.pic.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '56660'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/Users/gaoruishen/www/smart-pic/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/show/get-by-id?id=31'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=31'
+    'SCRIPT_FILENAME' => '/Users/gaoruishen/www/smart-pic/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1517207797.8681
+    'REQUEST_TIME' => 1517207797
+]
+2018-01-29 14:40:54 [127.0.0.1][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error:  in /Users/gaoruishen/www/smart-pic/controllers/ShowController.php:94
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'imagecreatefrom...', '/Users/gaoruish...', 94, Array)
+#1 /Users/gaoruishen/www/smart-pic/controllers/ShowController.php(94): imagecreatefromjpeg('https://img-oss...')
+#2 /Users/gaoruishen/www/smart-pic/controllers/ShowController.php(68): app\controllers\ShowController->draw('352', '134', Array)
+#3 [internal function]: app\controllers\ShowController->actionGetById()
+#4 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#6 /Users/gaoruishen/www/smart-pic/components/Controller.php(28): yii\base\Controller->runAction('get-by-id', Array)
+#7 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Module.php(523): app\components\Controller->runAction('get-by-id', Array)
+#8 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('show/get-by-id', Array)
+#9 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 /Users/gaoruishen/www/smart-pic/web/index.php(14): yii\base\Application->run()
+#11 {main}
+2018-01-29 14:40:54 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '31'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8,co;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'smart.pic.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'smart.pic.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '58145'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/Users/gaoruishen/www/smart-pic/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/show/get-by-id?id=31'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=31'
+    'SCRIPT_FILENAME' => '/Users/gaoruishen/www/smart-pic/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1517208054.3551
+    'REQUEST_TIME' => 1517208054
+]
+2018-01-29 14:41:29 [127.0.0.1][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error:  in /Users/gaoruishen/www/smart-pic/controllers/ShowController.php:94
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'imagecreatefrom...', '/Users/gaoruish...', 94, Array)
+#1 /Users/gaoruishen/www/smart-pic/controllers/ShowController.php(94): imagecreatefromjpeg('https://img-oss...')
+#2 /Users/gaoruishen/www/smart-pic/controllers/ShowController.php(68): app\controllers\ShowController->draw('352', '134', Array)
+#3 [internal function]: app\controllers\ShowController->actionGetById()
+#4 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#6 /Users/gaoruishen/www/smart-pic/components/Controller.php(28): yii\base\Controller->runAction('get-by-id', Array)
+#7 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Module.php(523): app\components\Controller->runAction('get-by-id', Array)
+#8 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('show/get-by-id', Array)
+#9 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 /Users/gaoruishen/www/smart-pic/web/index.php(14): yii\base\Application->run()
+#11 {main}
+2018-01-29 14:41:29 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '31'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8,co;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'smart.pic.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'smart.pic.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '58145'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/Users/gaoruishen/www/smart-pic/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/show/get-by-id?id=31'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=31'
+    'SCRIPT_FILENAME' => '/Users/gaoruishen/www/smart-pic/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1517208089.0441
+    'REQUEST_TIME' => 1517208089
+]
+2018-01-29 14:43:04 [127.0.0.1][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: imagecreatefromjpeg(): Filename cannot be empty in /Users/gaoruishen/www/smart-pic/controllers/ShowController.php:94
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'imagecreatefrom...', '/Users/gaoruish...', 94, Array)
+#1 /Users/gaoruishen/www/smart-pic/controllers/ShowController.php(94): imagecreatefromjpeg('')
+#2 /Users/gaoruishen/www/smart-pic/controllers/ShowController.php(68): app\controllers\ShowController->draw('352', '134', Array)
+#3 [internal function]: app\controllers\ShowController->actionGetById()
+#4 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#6 /Users/gaoruishen/www/smart-pic/components/Controller.php(28): yii\base\Controller->runAction('get-by-id', Array)
+#7 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Module.php(523): app\components\Controller->runAction('get-by-id', Array)
+#8 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('show/get-by-id', Array)
+#9 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 /Users/gaoruishen/www/smart-pic/web/index.php(14): yii\base\Application->run()
+#11 {main}
+2018-01-29 14:43:04 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '31'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8,co;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'smart.pic.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'smart.pic.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '58861'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/Users/gaoruishen/www/smart-pic/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/show/get-by-id?id=31'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=31'
+    'SCRIPT_FILENAME' => '/Users/gaoruishen/www/smart-pic/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1517208184.4568
+    'REQUEST_TIME' => 1517208184
+]
+2018-01-29 14:43:22 [127.0.0.1][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error:  in /Users/gaoruishen/www/smart-pic/controllers/ShowController.php:94
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'imagecreatefrom...', '/Users/gaoruish...', 94, Array)
+#1 /Users/gaoruishen/www/smart-pic/controllers/ShowController.php(94): imagecreatefromjpeg('https://img-oss...')
+#2 /Users/gaoruishen/www/smart-pic/controllers/ShowController.php(68): app\controllers\ShowController->draw('352', '134', Array)
+#3 [internal function]: app\controllers\ShowController->actionGetById()
+#4 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#6 /Users/gaoruishen/www/smart-pic/components/Controller.php(28): yii\base\Controller->runAction('get-by-id', Array)
+#7 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Module.php(523): app\components\Controller->runAction('get-by-id', Array)
+#8 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('show/get-by-id', Array)
+#9 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 /Users/gaoruishen/www/smart-pic/web/index.php(14): yii\base\Application->run()
+#11 {main}
+2018-01-29 14:43:21 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '31'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8,co;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'smart.pic.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'smart.pic.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '58861'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/Users/gaoruishen/www/smart-pic/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/show/get-by-id?id=31'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=31'
+    'SCRIPT_FILENAME' => '/Users/gaoruishen/www/smart-pic/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1517208201.4708
+    'REQUEST_TIME' => 1517208201
+]
+2018-01-29 16:59:37 [127.0.0.1][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: imagecreatetruecolor(): Invalid image dimensions in /Users/gaoruishen/www/smart-pic/controllers/ShowController.php:75
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'imagecreatetrue...', '/Users/gaoruish...', 75, Array)
+#1 /Users/gaoruishen/www/smart-pic/controllers/ShowController.php(75): imagecreatetruecolor('0', '0')
+#2 /Users/gaoruishen/www/smart-pic/controllers/ShowController.php(68): app\controllers\ShowController->draw('0', '0', Array)
+#3 [internal function]: app\controllers\ShowController->actionGetById()
+#4 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#6 /Users/gaoruishen/www/smart-pic/components/Controller.php(28): yii\base\Controller->runAction('get-by-id', Array)
+#7 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Module.php(523): app\components\Controller->runAction('get-by-id', Array)
+#8 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('show/get-by-id', Array)
+#9 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 /Users/gaoruishen/www/smart-pic/web/index.php(14): yii\base\Application->run()
+#11 {main}
+2018-01-29 16:59:37 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '2'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8,co;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:8080/'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'smart.pic.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'smart.pic.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '60579'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/Users/gaoruishen/www/smart-pic/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/show/get-by-id?id=2'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=2'
+    'SCRIPT_FILENAME' => '/Users/gaoruishen/www/smart-pic/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1517216377.2244
+    'REQUEST_TIME' => 1517216377
+]
+2018-02-01 11:07:51 [127.0.0.1][-][-][error][ParseError] ParseError: syntax error, unexpected '；」' (T_STRING) in /Users/gaoruishen/www/smart-pic/controllers/ShowController.php:83
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\controllers...')
+#1 [internal function]: spl_autoload_call('app\\controllers...')
+#2 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Module.php(633): class_exists('app\\controllers...')
+#3 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Module.php(591): yii\base\Module->createControllerByID('show')
+#4 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Module.php(517): yii\base\Module->createController('get-by-id')
+#5 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('show/get-by-id', Array)
+#6 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /Users/gaoruishen/www/smart-pic/web/index.php(14): yii\base\Application->run()
+#8 {main}
+2018-02-01 11:07:51 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '29'
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8,co;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'smart.pic.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'smart.pic.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '56871'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/Users/gaoruishen/www/smart-pic/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/show/get-by-id?id=29'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=29'
+    'SCRIPT_FILENAME' => '/Users/gaoruishen/www/smart-pic/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1517454471.7773
+    'REQUEST_TIME' => 1517454471
+]
+2018-02-01 14:47:05 [127.0.0.1][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined index: smart_pic_element in /Users/gaoruishen/www/smart-pic/controllers/SmartPicController.php:30
+Stack trace:
+#0 /Users/gaoruishen/www/smart-pic/controllers/SmartPicController.php(30): yii\base\ErrorHandler->handleError(8, 'Undefined index...', '/Users/gaoruish...', 30, Array)
+#1 [internal function]: app\controllers\SmartPicController->actionGetFrame()
+#2 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#4 /Users/gaoruishen/www/smart-pic/components/Controller.php(28): yii\base\Controller->runAction('get-frame', Array)
+#5 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Module.php(523): app\components\Controller->runAction('get-frame', Array)
+#6 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('smart-pic/get-f...', Array)
+#7 /Users/gaoruishen/www/smart-pic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /Users/gaoruishen/www/smart-pic/web/index.php(14): yii\base\Application->run()
+#9 {main}
+2018-02-01 14:47:04 [127.0.0.1][-][-][info][application] $_GET = [
+    'param' => ''
+]
+
+$_SERVER = [
+    'USER' => '_www'
+    'HOME' => '/Library/WebServer'
+    'HTTP_HOST' => 'smart.pic.com'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_ACCEPT' => 'application/json, text/plain, */*'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:8080/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8,co;q=0.7'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'smart.pic.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '63883'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/Users/gaoruishen/www/smart-pic/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/smart-pic/get-frame?param='
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'param='
+    'SCRIPT_FILENAME' => '/Users/gaoruishen/www/smart-pic/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1517467624.7631
+    'REQUEST_TIME' => 1517467624
+]
